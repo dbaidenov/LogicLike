@@ -1,0 +1,15 @@
+.not-found {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &__link {
+        font-size: 22px;
+        color: purple;
+        cursor: pointer;
+    }
+}
